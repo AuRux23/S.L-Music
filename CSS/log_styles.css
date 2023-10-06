@@ -1,0 +1,118 @@
+/* Estilos CSS personalizados aquí */
+/* Puedes poner estos estilos en tu archivo "log_styles.css" */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: aquamarine;
+  padding-bottom: 4em;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column; /* Cambia la dirección de flex a columna */
+  
+}
+
+header {
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  width: 100%; /* Ajusta el ancho del header al 100% */
+}
+
+nav, .nav-menu {
+  background-color: #444;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav li a:hover {
+  background-color: #555;
+}
+
+
+
+.debug {
+  
+  width: 990px;
+  height: auto;
+  transition: width 0.3s;
+  align-self: self-start;
+}
+
+.debug:hover {
+  width: 1000px;
+}
+
+/* Estilos para el formulario */
+.login-container {
+  position: absolute;
+  width: 840px;
+  height: 1376px;
+  max-height: 1000%;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  text-align: center;
+  left: 52%;
+  top: 21%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  
+
+}
+form {
+  margin-top: auto;
+  text-align: center;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
